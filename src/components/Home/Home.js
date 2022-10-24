@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import Destinations from "../Destinations/Destinations";
 
 const Home = () => {
-    return (
-        <div>
-            <h1>Welcome, Home...</h1>
-        </div>
-    );
+  return (
+    <div>
+      <Destinations></Destinations>
+    </div>
+  );
 };
 
 export default Home;

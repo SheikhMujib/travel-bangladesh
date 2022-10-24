@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className="navbar navbar-expand-lg bg-light mb-5">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           Travel Bangladesh
@@ -27,9 +27,9 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="a">
-                Link
-              </a>
+              <Link to="/destinations" className="nav-link">
+                Destinations
+              </Link>
             </li>
           </ul>
           <form className="d-flex" role="search">
